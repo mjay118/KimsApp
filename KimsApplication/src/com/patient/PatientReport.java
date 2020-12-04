@@ -59,7 +59,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response) thr
 		pw.println("<center><table border=1 width=20% height=20%><tr><td>id</td><td>name</td><td>email</td><td>date</td><td>Blood Group</td><td>Test</td><td>Finding</td></tr>");
 		
 		if(rs.next()) {
-			System.out.println("yyyyy");
+			
 		pw.println("<tr><td>" + rs.getInt(1) + "</td><td>" + rs.getString(2) + "</td><td>" + rs.getString(3) + "</td><td>" + rs.getString(4) + "</td><td>" + rs.getString(5) + "</td><td>" + rs.getString(6) + "</td><td>" + rs.getString(7) + "</td></tr>");
 		
 		
